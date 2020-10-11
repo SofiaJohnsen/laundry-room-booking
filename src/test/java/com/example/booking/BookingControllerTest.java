@@ -41,7 +41,7 @@ public class BookingControllerTest {
 
     @Test
     public void postShouldReturnCreated() {
-        Booking body = new Booking(LocalDate.of(2018, 12, 9), 7, Booker.APARTMENT_2, LaundryRoom.SECOND_ROOM);
+        Booking body = new Booking(LocalDate.of(2025, 12, 9), 7, Booker.APARTMENT_2, LaundryRoom.SECOND_ROOM);
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);
         HttpEntity<Booking> entity = new HttpEntity<>(body, headers);

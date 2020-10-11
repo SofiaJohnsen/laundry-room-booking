@@ -15,9 +15,9 @@ import static org.junit.Assert.assertTrue;
 @SpringBootTest
 public class BookingRepositoryTest {
 
-    public static final LocalDate DATE_B = LocalDate.of(2018, 12, 2);
+    public static final LocalDate DATE_B = LocalDate.of(2025, 12, 2);
     public static final int SLOT_B = 7;
-    public static final LocalDate DATE_A = LocalDate.of(2018, 12, 2);
+    public static final LocalDate DATE_A = LocalDate.of(2025, 12, 2);
     public static final LaundryRoom ROOM = LaundryRoom.FIRST_ROOM;
     public static final int SLOT_A = 8;
     public static final Booker APARTMENT_1 = Booker.APARTMENT_1;
