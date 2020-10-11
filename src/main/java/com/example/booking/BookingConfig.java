@@ -14,7 +14,7 @@ public class BookingConfig {
     @Bean
     CommandLineRunner loadDatabase(BookingRepository repository) {
         return args -> log.info("*****Saved booking: {}", repository.save(
-                new Booking(LocalDate.of(2018, 10, 11),
+                new Booking(LocalDate.of(2025, 10, 11),
                         7,
                         Booker.APARTMENT_1,
                         LaundryRoom.FIRST_ROOM)
